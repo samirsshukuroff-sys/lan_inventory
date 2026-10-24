@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  inventory-web:
+    build: .
+    container_name: lan_inventory
+    restart: always
+    ports:
+      - "8000:8000"
